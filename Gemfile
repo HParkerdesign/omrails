@@ -18,6 +18,7 @@ gem 'jquery-rails'
 gem 'turbolinks', '~> 5'
 gem 'jbuilder', '~> 2.5'
 gem 'bootstrap', '~> 4.0.0.alpha6'
+gem 'devise'
 
 
 group :development, :test do
@@ -37,7 +38,6 @@ end
 
 group :production do
   gem 'pg'
-
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
